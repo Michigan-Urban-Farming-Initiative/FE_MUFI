@@ -6,6 +6,7 @@ import Mission from '@/components/Mission';
 import Testimonials from '@/components/Testimonials';
 import Projects from '@/components/Projects';
 import JoinUs from '@/components/JoinUs';
+import Sponsors from '@/components/Sponsors';
 import styles from '@/sass/main.module.sass';
 
 export default function HomePage() {
@@ -17,6 +18,8 @@ export default function HomePage() {
       <CallToAction />
       <Projects />
       <JoinUs />
+      <Sponsors />
+      <CallToAction />
     </Layout>
   );
 }
